@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Poppins:wght@600&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "open sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+h1, h2, h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 17px 64px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.btn.primary{
+    background: white;
+}
+.btn.secondary{
+    color: white;
+    background:hsl(322, 100%, 66%);
+}
+.hero-section{
+    height: 100vh;
+    background: hsl(193, 100%, 96%) url(../landin/bg-hero-desktop.svg) no-repeat;
+    padding: 36px 59px;
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+} 
+.logo img{
+    height: 26px;
+    width: auto;
+} 
+.hero-content{
+    display:flex;
+    align-items:center;
+}
+.hero-content .text-info{
+    flex: 1;
+}
+.hero-content .text-info p{
+    margin: 25px 0;
+}
+.hero-content .illustration{
+    flex: 1;
+}
+.hero-content .illustration img{
+    width: 100%;
+}
+.features-section{
+    padding: 100px 59px 200px 59px;
+}
+.feature{
+    display: flex;
+    height: 400px;
+    margin-bottom: 45px;
+    padding: 55px 55px 55px 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+}
+</style>
+<body>
+    <section class="hero-section">
+        <nav>
+            <div class="logo">
+                <img src="../landin/logo (1).svg">
+            </div>
+            <button class="btn primary">Try It Free</button>
+        </nav>
+        <div class="hero-content">
+            <div class="text-info">
+                <h1>Build The Community</h1>
+                <h1>Your Fans Will Love</h1>
+                <p>Huddle re-imagination the way we buid communities. You have a voice but so does your audience.
+                   Creat connections with your users as you engage in genuine discussions.
+                </p>
+                <button class="btn secondary">Get Started For Free</button>   
+            </div>
+            <div class="illustration">
+                <img src="../landin/illustration-mockups.svg" alt="image from external source">
+            </div>
+        </div>
+    </section>
+    
+    <div class="features-section">
+        <div class="feature">
+            <div class="text-info">
+                <h2>Grow Together</h2>
+                <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+                   Think of the insightful conversations you miss out on with a feedback form.</p>
+            </div>
+            <div class="illustration">
+                <img src="../landin/illustration-grow-together.svg" alt="Grow Together">
+            </div>
+        </div>
+        <div class="feature">
+            <div class="text-info">
+                <h2>Flowing conversations</h2>
+                <p>You wouldn't puginate a conversation in real life, so why do it online?
+                   Our threads  have just-in-time loading for a more natural flow.</p>
+            </div>
+            <div class="illustration">
+                <img src="../landin/illustration-flowing-conversation.svg" alt="Flowing converse">
+            </div>
+
+        </div>
+        <div class="feature">
+            <div class="text-info">
+                <h2>Your users</h2>
+                <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means 
+                    once signed in to your app, your users can start chatting immediately.</p>
+            </div>
+            <div class="illustration">
+                <img src="../landin/illustration-your-users.svg" alt="Users">
+            </div>
+        </div>
+    </div>
+    
+           , Ready to Build Your Community? Get Started for free Lorem
+    
+
+</body>
+</html>
